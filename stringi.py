@@ -10,3 +10,5 @@ print(tekst2)
 print(f"Lubię {rzecz} ")   #skorzystamy z beczki{} wstawiając f
 tekst3  = (f"Jest teraz godzina:{godzina}, a dziś mamy{dzien} ")
 print(tekst3)
+
+
