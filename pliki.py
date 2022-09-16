@@ -28,12 +28,13 @@ print(dane)
 uchwyt.close()    #uwalnianie uchwytu, musimy to zrobić
 # duze pliki powinny być otwierane np pandasem
 
-with open ('plik.txt','r',encoding='utf-8') as odczyt:   # with open nei ma closa, zamykany jest po operacji with
-    for i in odczyt:
-        print(i)
+#with open ('plik.txt','r',encoding='utf-8') as odczyt:   # with open nei ma closa, zamykany jest po operacji with
+    # for i in odczyt:
+    #     print(i)
 
 # otwieranie pliku to tez sprawdzenie  ilości słów
 
-
-
+#tworzenie pliku txt
+with open ('plik2.txt','w',encoding='utf-8') as zapis:
+    zapis.write("Tutaj nowe informacje")
 
